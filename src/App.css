@@ -1,25 +1,27 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  max-width: none;
 }
 
-div {
+.page {
   width: 100dvw;
   height: 100dvh;
   overflow: hidden;
+
   background-color: #1a1a1a;
   display: flex;
   flex-direction: column;
   gap: 6.125vh;
   align-items: center;
   justify-content: center;
-  img {
-    width: auto;
-    height: 25vh;
-  }
-  span {
-    font-size: 1.5rem;
-  }
+}
+
+.page img {
+  width: auto;
+  height: 25vh;
+}
+
+.page span {
+  font-size: 1.5rem;
 }

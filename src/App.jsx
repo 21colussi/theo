@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="page">
         <img alt='' src='crane.png'></img>
         <span>Site en construction ...</span>
       </div>
