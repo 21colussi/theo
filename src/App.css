@@ -6,7 +6,19 @@
 }
 
 div {
-  width: 100dvh;
+  width: 100dvw;
   height: 100dvh;
-  background-color: aqua;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  gap: 12.5dvh;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: auto;
+    height: 12.5dvh;
+  }
+  span {
+    font-size: 1.5rem;
+  }
 }

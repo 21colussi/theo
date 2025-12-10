@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Théo</h1>
+        <img alt='' src='crane.png'></img>
+        <span>Site en construction ...</span>
       </div>
     </>
   )
