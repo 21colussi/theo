@@ -29,18 +29,20 @@ function Menu({ open }) {
                 <ul>
                     {languages.map(({ name, code }, i) => (
                         <li key={i}>
-                        <button tabIndex={open ? 0 : -1}>
-                            <ReactCountryFlag
-                            countryCode={code}
-                            svg
-                            style={{
-                                width: "1.5em",
-                                height: ".75em",
-                                objectFit: "cover"
-                            }}
-                            />
-                            <span>{name}</span>
-                        </button>
+                            <button tabIndex={open ? 0 : -1}>
+                                <ReactCountryFlag
+                                    countryCode={code}
+                                    svg
+                                    style={{
+                                        width: "1.5em",
+                                        height: "1em",
+                                        objectFit: "cover"
+                                    }}
+                                />
+                                <span>
+                                    {name}
+                                </span>
+                            </button>
                         </li>
                     ))}
                 </ul>
