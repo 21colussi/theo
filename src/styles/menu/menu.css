@@ -1,0 +1,106 @@
+aside.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
+    width: 25dvw;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    overflow-x: hidden;
+    padding: 1dvw;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    div.menu-top {
+        h3 {
+            display: flex;
+            gap: 0.25dvw;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-weight: 700;
+            span.icon {
+                transform: translateY(20%);
+                font-style: normal;
+                color: var(--accent-color-1);
+                user-select: none;
+            }
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1vh;
+            margin-top: 5dvh;
+            li {
+                list-style: none;
+                a {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 0.25dvh;
+                    text-decoration: none;
+                    color: var(--color-black);
+                    span.section-name {
+                        font-size: 2rem;
+                        text-transform: uppercase;
+                        transition: 0.15s ease-in-out;
+                    }
+                    span.section-number {
+                        font-family: 'Playfair Display', serif;
+                        color: var(--accent-color-1);
+                    }
+                    &:hover {
+                        span.section-name {
+                            font-weight: 600;
+                            color: var(--accent-color-1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div.languages {
+        h5 {
+            font-size: 1rem;
+            font-weight: normal;
+            color: var(--accent-color-1);
+        }
+        ul {
+            margin-top: 1dvh;
+            display: flex;
+            justify-content: space-between;
+            gap: 2.5dvw;
+            list-style: none;
+            li {
+                button {
+                    background: none;
+                    border: none;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    img {
+                        height: 12px;
+                        width: 24px;
+                        border-radius: 3px;
+                        margin-right: 6px;
+                        filter: grayscale(75%) contrast(50%);
+                        transition: 0.15s ease-in-out;
+                    }
+                }
+                &:first-child {
+                    button {
+                        img {
+                            filter: none;
+                        }
+                    }
+                }
+                &:hover {
+                    button {
+                        img {
+                            filter: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
