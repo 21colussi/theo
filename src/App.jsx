@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/header/Header';
 import './App.css'
 
 function App() {
@@ -10,7 +11,6 @@ function App() {
       <main className={menuOpen ? "open" : "closed"}>
         <div className="content">
         </div>
-        <Menu open={menuOpen}/>
       </main>
     </>
   )
