@@ -1,0 +1,27 @@
+#root {
+  padding: 0;
+  margin: 0;
+  max-width: none;
+}
+
+.page {
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  gap: 6.125vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.page img {
+  width: auto;
+  height: 25vh;
+}
+
+.page span {
+  font-size: 1.5rem;
+}
