@@ -1,5 +1,5 @@
 import '../../styles/menu/menu.css';
-import {FlagIcon} from 'react-flag-kit';
+import ReactCountryFlag from "react-country-flag";
 
 function Menu({ open }) {
     const languages = [
@@ -29,15 +29,18 @@ function Menu({ open }) {
                 <ul>
                     {languages.map(({ name, code }, i) => (
                         <li key={i}>
-                            <button tabIndex={open ? 0 : -1}>
-                                <FlagIcon
-                                    code={code}
-                                    style={{
-                                        objectFit: "cover"
-                                    }}
-                                />
-                                <span>{name}</span>
-                            </button>
+                        <button tabIndex={open ? 0 : -1}>
+                            <ReactCountryFlag
+                            countryCode={code}
+                            svg
+                            style={{
+                                width: "1.5em",
+                                height: "1.5em",
+                                objectFit: "cover"
+                            }}
+                            />
+                            <span>{name}</span>
+                        </button>
                         </li>
                     ))}
                 </ul>
