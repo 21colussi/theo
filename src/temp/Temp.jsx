@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import '../temp/Temp.css'
 
 function Temp() {
   const [count, setCount] = useState(0)
