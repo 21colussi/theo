@@ -35,7 +35,7 @@ function Menu({ open }) {
                             svg
                             style={{
                                 width: "1.5em",
-                                height: "1.5em",
+                                height: ".75em",
                                 objectFit: "cover"
                             }}
                             />
