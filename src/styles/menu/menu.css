@@ -78,12 +78,12 @@ aside.menu {
                     font-size: 1rem;
                     cursor: pointer;
                     img {
-                        top: -5px;
                         height: 12px;
                         width: 24px;
                         border-radius: 3px;
                         margin-right: 6px;
                         filter: grayscale(75%) contrast(50%);
+                        transform: translateY(10px);
                         transition: 0.15s ease-in-out;
                     }
                 }
