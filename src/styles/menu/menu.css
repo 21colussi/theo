@@ -110,7 +110,7 @@ aside.menu {
         div.theme-color {
             display: flex;
             flex-direction: column;
-            justify-content: right;
+            align-items: flex-end;
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
