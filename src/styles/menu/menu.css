@@ -108,7 +108,9 @@ aside.menu {
             }
         }
         div.theme-color {
-            justify-content: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
