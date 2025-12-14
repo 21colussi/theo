@@ -59,45 +59,49 @@ aside.menu {
             }
         }
     }
-    div.languages {
-        h5 {
-            font-size: 1rem;
-            font-weight: normal;
-            color: var(--accent-color-1);
-        }
-        ul {
-            margin-top: 1dvh;
-            display: flex;
-            justify-content: space-between;
-            gap: 2.5dvw;
-            list-style: none;
-            li {
-                button {
-                    background: none;
-                    border: none;
-                    font-size: 1rem;
-                    cursor: pointer;
-                    img {
-                        height: 12px;
-                        width: 24px;
-                        border-radius: 3px;
-                        margin-right: 6px;
-                        filter: grayscale(75%) contrast(50%);
-                        transform: translateY(-1px);
-                        transition: 0.15s ease-in-out;
-                    }
-                }
-                &:first-child {
+    div.menu-bottom {
+        display: flex;
+        justify-content: space-between;
+        div.socials {
+            h5 {
+                font-size: 1rem;
+                font-weight: normal;
+                color: var(--accent-color-1);
+            }
+            ul {
+                margin-top: 1dvh;
+                display: flex;
+                justify-content: space-between;
+                gap: 2.5dvw;
+                list-style: none;
+                li {
                     button {
+                        background: none;
+                        border: none;
+                        font-size: 1rem;
+                        cursor: pointer;
                         img {
-                            filter: none;
+                            height: 12px;
+                            width: 24px;
+                            border-radius: 3px;
+                            margin-right: 6px;
+                            filter: grayscale(75%) contrast(50%);
+                            transform: translateY(-1px);
+                            transition: 0.15s ease-in-out;
                         }
                     }
-                }
-                &:hover {
-                    button {
-                        img {
-                            filter: none;
+                    &:first-child {
+                        button {
+                            img {
+                                filter: none;
+                            }
+                        }
+                    }
+                    &:hover {
+                        button {
+                            img {
+                                filter: none;
+                            }
                         }
                     }
                 }

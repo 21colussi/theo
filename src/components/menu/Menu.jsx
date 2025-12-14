@@ -24,28 +24,53 @@ function Menu({ open }) {
                     ))}
                 </ul>
             </div>
-            <div className="languages" aria-hidden={!open}>
-                <h5>Langues</h5>
-                <ul>
-                    {languages.map(({ name, code }, i) => (
-                        <li key={i}>
-                            <button tabIndex={open ? 0 : -1}>
-                                <ReactCountryFlag
-                                    countryCode={code}
-                                    svg
-                                    style={{
-                                        width: "1.5em",
-                                        height: "1em",
-                                        objectFit: "cover"
-                                    }}
-                                />
-                                <span>
-                                    {name}
-                                </span>
-                            </button>
-                        </li>
-                    ))}
-                </ul>
+            <div className='menu-bottom'>
+                <div className="socials" aria-hidden={!open}>
+                    <h5>Langues</h5>
+                    <ul>
+                        {languages.map(({ name, code }, i) => (
+                            <li key={i}>
+                                <button tabIndex={open ? 0 : -1}>
+                                    <ReactCountryFlag
+                                        countryCode={code}
+                                        svg
+                                        style={{
+                                            width: "1.5em",
+                                            height: "1em",
+                                            objectFit: "cover"
+                                        }}
+                                    />
+                                    <span>
+                                        {name}
+                                    </span>
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="theme-color" aria-hidden={!open}>
+                    <h5>Langues</h5>
+                    <ul>
+                        {languages.map(({ name, code }, i) => (
+                            <li key={i}>
+                                <button tabIndex={open ? 0 : -1}>
+                                    <ReactCountryFlag
+                                        countryCode={code}
+                                        svg
+                                        style={{
+                                            width: "1.5em",
+                                            height: "1em",
+                                            objectFit: "cover"
+                                        }}
+                                    />
+                                    <span>
+                                        {name}
+                                    </span>
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         </aside>
     )
