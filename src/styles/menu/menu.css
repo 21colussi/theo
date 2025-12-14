@@ -83,7 +83,7 @@ aside.menu {
                         border-radius: 3px;
                         margin-right: 6px;
                         filter: grayscale(75%) contrast(50%);
-                        transform: translateY(-5px);
+                        transform: translateY(-3px);
                         transition: 0.15s ease-in-out;
                     }
                 }
