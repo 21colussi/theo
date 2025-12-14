@@ -108,6 +108,7 @@ aside.menu {
             }
         }
         div.theme-color {
+            justify-content: right;
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
