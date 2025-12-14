@@ -14,7 +14,7 @@ header.header {
         align-self: flex-start;
         display: flex;
         align-items: center;
-        gap: 0.25dvw;
+        gap: 0.5dvw;
         color: var(--color-white);
         img.logo-icon {
             height: calc((300% - 6dvh)/2);
