@@ -30,10 +30,12 @@ aside.menu {
         ul {
             display: flex;
             flex-direction: column;
-            gap: 1vh;
             margin-top: 5dvh;
             li {
                 list-style: none;
+                position: relative;
+                padding: 1vh 0;
+                border-top: 1px solid var(--text-color);
                 a {
                     display: flex;
                     align-items: flex-start;
@@ -55,6 +57,9 @@ aside.menu {
                             color: var(--accent-color);
                         }
                     }
+                }
+                &:last-child {
+                    border-bottom: 1px solid var(--accent-color);
                 }
             }
         }
