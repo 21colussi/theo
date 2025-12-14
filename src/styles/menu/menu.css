@@ -73,7 +73,6 @@ aside.menu {
                 color: var(--accent-color-1);
             }
             ul {
-                margin-top: 1dvh;
                 display: flex;
                 justify-content: space-between;
                 gap: 2.5dvw;
