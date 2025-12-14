@@ -1,11 +1,6 @@
 import '../../styles/menu/menu.css';
-import ReactCountryFlag from "react-country-flag";
 
 function Menu({ open }) {
-    const languages = [
-        { name: 'Français', code: 'FR' },
-        { name: 'English',  code: 'GB' }
-    ];
     return (
         <aside id="menu" className={`menu ${open ? 'open' : 'closed'}`}>
             <div className="menu-top" aria-hidden={!open}>
@@ -28,24 +23,8 @@ function Menu({ open }) {
                 <div className="socials" aria-hidden={!open}>
                     <h5>Réseaux sociaux</h5>
                     <ul>
-                        {languages.map(({ name, code }, i) => (
-                            <li key={i}>
-                                <button tabIndex={open ? 0 : -1}>
-                                    <ReactCountryFlag
-                                        countryCode={code}
-                                        svg
-                                        style={{
-                                            width: "1.5em",
-                                            height: "1em",
-                                            objectFit: "cover"
-                                        }}
-                                    />
-                                    <span>
-                                        {name}
-                                    </span>
-                                </button>
-                            </li>
-                        ))}
+                        <li>Tiktok</li>
+                        <li>Instagram</li>
                     </ul>
                 </div>
                 <div className="theme-color" aria-hidden={!open}>
