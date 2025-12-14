@@ -44,7 +44,7 @@ aside.menu {
                     color: var(--bg-color);
                     span.section-name {
                         font-size: 2rem;
-                        line-height: 1.25;
+                        line-height: 1.225;
                         text-transform: uppercase;
                         transition: 0.15s ease-in-out;
                     }
