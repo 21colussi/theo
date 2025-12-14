@@ -12,18 +12,14 @@ header.header {
         top: 0;
         height: 36px;
         align-self: flex-start;
-        font-family: 'Playfair Display', serif;
         display: flex;
         align-items: center;
         gap: 0.25dvw;
-        font-style: italic;
-        font-weight: 700;
         color: var(--color-white);
-        span.logo-icon {
-            transform: rotate(180deg);
-            font-style: normal;
-            color: var(--accent-color-1);
-            user-select: none;
+        img
+        img.logo-icon {
+            height: 1.5rem;
+            width: auto;
         }
     }
     button.menu-toggle {
