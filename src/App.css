@@ -1,7 +1,15 @@
 :root {
-  --color-black: #0E0E0E;
-  --color-gray: #aaaaaa;
-  --color-white: #f1f1f1
+  --bg-color: #0e0e0e;
+  --text-color: #aaaaaa;
+  --contrast-color: #f1f1f1;
+  --accent-color: #ff593e;
+}
+
+[data-theme="light"] {
+  --bg-color: #f1f1f1;
+  --text-color: #555555;
+  --contrast-color: #0e0e0e;
+  --accent-color: #ff593e;
 }
 
 * {
@@ -17,8 +25,8 @@ html {
     height: 100dvh;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
-    color: var(--color-gray);
-    background-color: var(--color-black);
+    color: var(--text-color);
+    background-color: var(--bg-color);
     scroll-behavior: smooth;
     scrollbar-width: none;
     -ms-overflow-style: none;

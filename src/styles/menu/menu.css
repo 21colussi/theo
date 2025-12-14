@@ -7,8 +7,8 @@ aside.menu {
     position: sticky;
     top: 0;
     right: 0;
-    background-color: var(--color-white);
-    color: var(--color-black);
+    background-color: var(--contrast-color);
+    color: var(--bg-color);
     overflow-x: hidden;
     padding: 1dvw;
     transform: translateX(100%);
@@ -23,7 +23,7 @@ aside.menu {
             span.icon {
                 transform: translateY(20%);
                 font-style: normal;
-                color: var(--accent-color-1);
+                color: var(--accent-color);
                 user-select: none;
             }
         }
@@ -39,7 +39,7 @@ aside.menu {
                     align-items: flex-start;
                     gap: 0.25dvh;
                     text-decoration: none;
-                    color: var(--color-black);
+                    color: var(--bg-color);
                     span.section-name {
                         font-size: 2rem;
                         text-transform: uppercase;
@@ -47,12 +47,12 @@ aside.menu {
                     }
                     span.section-number {
                         font-family: 'Playfair Display', serif;
-                        color: var(--accent-color-1);
+                        color: var(--accent-color);
                     }
                     &:hover {
                         span.section-name {
                             font-weight: 600;
-                            color: var(--accent-color-1);
+                            color: var(--accent-color);
                         }
                     }
                 }
@@ -70,7 +70,7 @@ aside.menu {
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
-                color: var(--accent-color-1);
+                color: var(--accent-color);
             }
             ul {
                 display: flex;
@@ -87,7 +87,7 @@ aside.menu {
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
-                color: var(--accent-color-1);
+                color: var(--accent-color);
             }
         }
     }

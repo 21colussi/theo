@@ -15,7 +15,7 @@ header.header {
         display: flex;
         align-items: center;
         gap: .75dvw;
-        color: var(--color-white);
+        color: var(--contrast-color);
         img.logo-icon {
             height: calc((300% - 6dvh)/2);
             width: auto;
@@ -36,7 +36,7 @@ header.header {
         background: none;
         border: none;
         font-weight: 100;
-        color: var(--color-white);
+        color: var(--contrast-color);
         transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         user-select: none;
         outline: none;
@@ -47,7 +47,7 @@ header.header {
     }
     &.open {
         button.menu-toggle {
-            color: var(--color-black);
+            color: var(--bg-color);
             rotate: 225deg;
         }
     }

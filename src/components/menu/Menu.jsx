@@ -29,7 +29,7 @@ function Menu({ open }) {
                 </div>
                 <div className="theme-color" aria-hidden={!open}>
                     <h5>Thème</h5>
-                    <button tabIndex={open ? 0 : -1}>
+                    <button id="theme-toggle" tabIndex={open ? 0 : -1}>
                         <span>O</span>
                     </button>
                 </div>
