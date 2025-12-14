@@ -17,7 +17,7 @@ header.header {
         gap: 0.25dvw;
         color: var(--color-white);
         img.logo-icon {
-            height: 100%;
+            height: calc((100%+2dvh)*2/3);
             width: auto;
             user-select: none;
         }
