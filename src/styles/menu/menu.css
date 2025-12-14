@@ -78,6 +78,7 @@ aside.menu {
                     font-size: 1rem;
                     cursor: pointer;
                     img {
+                        top: -5px;
                         height: 12px;
                         width: 24px;
                         border-radius: 3px;
