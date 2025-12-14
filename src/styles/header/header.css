@@ -14,12 +14,17 @@ header.header {
         align-self: flex-start;
         display: flex;
         align-items: center;
-        gap: 0.5dvw;
+        gap: .75dvw;
         color: var(--color-white);
         img.logo-icon {
             height: calc((300% - 6dvh)/2);
             width: auto;
             user-select: none;
+        }
+        span {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-weight: 700;
         }
     }
     button.menu-toggle {
