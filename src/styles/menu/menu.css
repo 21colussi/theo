@@ -63,6 +63,10 @@ aside.menu {
         display: flex;
         justify-content: space-between;
         div.socials {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.5dvh;
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
@@ -111,6 +115,7 @@ aside.menu {
             display: flex;
             flex-direction: column;
             align-items: flex-end;
+            gap: 1.5dvh;
             h5 {
                 font-size: 1rem;
                 font-weight: normal;
