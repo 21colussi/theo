@@ -18,7 +18,7 @@ header.header {
         color: var(--color-white);
         background-color: aqua;
         img.logo-icon {
-            height: calc(100%-2dvh);
+            height: calc(100% - 2dvh);
             width: auto;
             user-select: none;
         }
