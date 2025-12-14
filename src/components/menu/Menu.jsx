@@ -51,15 +51,7 @@ function Menu({ open }) {
                 <div className="theme-color" aria-hidden={!open}>
                     <h5>Thème</h5>
                     <button tabIndex={open ? 0 : -1}>
-                        <ReactCountryFlag
-                            countryCode={code}
-                            svg
-                            style={{
-                                width: "1.5em",
-                                height: "1em",
-                                objectFit: "cover"
-                            }}
-                        />
+                        <span>O</span>
                     </button>
                 </div>
             </div>
