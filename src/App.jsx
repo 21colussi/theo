@@ -13,7 +13,7 @@ function App() {
       <Header open={menuOpen} toggle={toggleMenu}/>
       <main className={menuOpen ? "open" : "closed"}>
         <div className="content">
-            <div style={{ height: "200vh", background: "red" }}/>
+            <div className='temporary'/>
         </div>
         <Menu open={menuOpen}/>
       </main>

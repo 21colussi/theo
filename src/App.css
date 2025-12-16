@@ -38,7 +38,7 @@ html {
       display: flex;
       position: relative;
       width: 125dvw;
-      /* margin-top: calc(-1 * (2dvh + 36px)); */
+      margin-top: calc(-1 * (2dvh + 36px));
       div.content {
         min-width: 0;
         width: 100dvw;
@@ -48,6 +48,9 @@ html {
         flex-direction: column;
         gap: 25dvh;
         transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
+        div.temporary {
+          background: var(--accent-color);
+        }
       }
       &.open {
         div.content {
