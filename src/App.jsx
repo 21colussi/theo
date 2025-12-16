@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Header from './components/header/Header';
-import './App.css'
+import './app.css'
 import Menu from './components/menu/Menu';
 import Hero from './components/hero/Hero';
 

@@ -22,7 +22,7 @@ html {
   overflow-x: hidden;
   body {
     width: 100dvw;
-    height: 100dvh;
+    min-height: 100dvh;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
