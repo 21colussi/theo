@@ -16,7 +16,6 @@ function Hero() {
             ref={heroRef}
             onClick={handleHeroClick}
         >
-            <h1 id="hero-title">한국 덤프</h1>
         </section>
     )
 }

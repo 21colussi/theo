@@ -5,16 +5,4 @@ section.hero {
     padding: 0;
     overflow: hidden;
     background-color: var(--accent-color);
-    h1#hero-title {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        mix-blend-mode: color-burn;
-        opacity: 0.85;
-        z-index: 1;
-        font-size: clamp(36px, 8vw, 150px);
-        text-align: center;
-        user-select: none;
-    }
 }
