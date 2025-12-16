@@ -38,7 +38,7 @@ aside.menu {
                 border-top: 1px solid var(--text-color);
                 opacity: 0;
                 transform: translateX(2rem);
-                transition: transform 0.35s ease, opacity 0.35s ease;
+                transition: transform 1s ease, opacity 1s ease;
                 a {
                     display: flex;
                     align-items: flex-start;
