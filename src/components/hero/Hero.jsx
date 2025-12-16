@@ -1,4 +1,4 @@
-import '../../styles/hero/Hero.css'
+import '../../styles/hero/hero.css'
 
 import {useRef} from "react";
 
