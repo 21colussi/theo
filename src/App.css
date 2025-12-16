@@ -19,24 +19,23 @@
 }
 
 html {
-  /* Retirer overflow-x: hidden qui peut bloquer le scroll */
+  overflow-x: hidden;
   body {
     width: 100dvw;
-    overflow-x: hidden; /* Garder seulement sur body */
-    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    /* font-family: 'Inter', sans-serif; */
     color: var(--text-color);
     background-color: var(--bg-color);
     scroll-behavior: smooth;
-    /* Retirer scrollbar-width: none pour permettre le scroll */
-    /* scrollbar-width: none; */
-    /* -ms-overflow-style: none; */
-    /* &::-webkit-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
       display: none;
-    } */
+    }
     main {
       display: flex;
       position: relative;
-      width: 100dvw; /* Changé de 125dvw à 100dvw */
+      width: 125dvw;
       margin-top: calc(-1 * (2dvh + 36px));
       div.content {
         min-width: 0;
