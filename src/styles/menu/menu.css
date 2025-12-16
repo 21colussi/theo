@@ -53,6 +53,7 @@ aside.menu {
                     span.section-number {
                         font-family: 'Playfair Display', serif;
                         color: var(--accent-color);
+                        transform: translateY(-1px);
                     }
                     &:hover {
                         span.section-name {
