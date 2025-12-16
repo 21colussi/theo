@@ -36,20 +36,19 @@ aside.menu {
                 position: relative;
                 padding: 1vh 0;
                 border-top: 1px solid var(--text-color);
-                opacity: 0;
-                transform: translateX(2rem);
-                transition: transform 1s ease, opacity 1s ease;
                 a {
                     display: flex;
                     align-items: flex-start;
                     gap: 0.25dvh;
                     text-decoration: none;
                     color: var(--bg-color);
+                    transform: translateX(2rem);
+                    transition: transform 1s ease-in-out;
                     span.section-name {
                         font-size: 2rem;
                         line-height: 1.225;
                         text-transform: uppercase;
-                        transition: 0.15s ease-in-out;
+                        transition: 1s ease-in-out;
                     }
                     span.section-number {
                         font-family: 'Playfair Display', serif;
@@ -57,7 +56,7 @@ aside.menu {
                     }
                     &:hover {
                         span.section-name {
-                            font-weight: 600;
+                            font-weight: 900;
                             color: var(--accent-color);
                         }
                     }
