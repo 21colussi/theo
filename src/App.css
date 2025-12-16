@@ -50,6 +50,7 @@ html {
         transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
         div.temporary {
           background: var(--accent-color);
+          height: 200dvh;
         }
       }
       &.open {
