@@ -60,6 +60,9 @@ aside.menu {
                             color: var(--accent-color);
                         }
                     }
+                    &:nth-child(1) {
+                        color: blueviolet;
+                    }
                 }
                 &:last-child {
                     border-bottom: 1px solid var(--text-color);
