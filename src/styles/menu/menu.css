@@ -36,6 +36,9 @@ aside.menu {
                 position: relative;
                 padding: 1vh 0;
                 border-top: 1px solid var(--text-color);
+                opacity: 0;
+                transform: translateX(2rem);
+                transition: transform 0.35s ease, opacity 0.35s ease;
                 a {
                     display: flex;
                     align-items: flex-start;

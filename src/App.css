@@ -59,6 +59,12 @@ html {
         }
         aside.menu {
           transform: translateX(0);
+          ul {
+            li {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
         }
       }
     }
