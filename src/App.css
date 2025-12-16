@@ -20,9 +20,11 @@
 
 html {
   overflow-x: hidden;
+  overflow-y: auto;
   body {
     width: 100dvw;
     overflow-x: hidden;
+    overflow-y: auto;
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -36,7 +38,7 @@ html {
       display: flex;
       position: relative;
       width: 125dvw;
-      margin-top: calc(-1 * (2dvh + 36px));
+      /* margin-top: calc(-1 * (2dvh + 36px)); */
       div.content {
         min-width: 0;
         width: 100dvw;
