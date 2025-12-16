@@ -43,7 +43,7 @@ aside.menu {
                     text-decoration: none;
                     color: var(--bg-color);
                     transform: translateX(25dvw);
-                    transition: transform .35s ease-in-out;
+                    transition: transform .5s ease-in-out;
                     span.section-name {
                         font-size: 2rem;
                         line-height: 1.225;
