@@ -42,7 +42,7 @@ aside.menu {
                     gap: 0.25dvh;
                     text-decoration: none;
                     color: var(--bg-color);
-                    transform: translateX(20rem);
+                    transform: translateX(25dvw);
                     transition: transform .35s ease-in-out;
                     span.section-name {
                         font-size: 2rem;
