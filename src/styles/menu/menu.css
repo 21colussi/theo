@@ -105,8 +105,14 @@ aside.menu {
             ul {
                 display: flex;
                 justify-content: space-between;
-                gap: 2.5dvw;
+                gap: 1.25dvw;
                 list-style: none;
+                li {
+                    i {
+                        color: var(--text-color);
+                        transform: scale(1.5);
+                    }
+                }
             }
         }
         div.theme-color {
