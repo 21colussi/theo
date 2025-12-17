@@ -25,9 +25,11 @@ function Menu({ open }) {
                     <ul>
                         <li>
                             <i class="fa-brands fa-tiktok"/>
+                            <span>Théo💪</span>
                         </li>
                         <li>
                             <i class="fa-brands fa-instagram"></i>
+                            <span>theoclss2</span>
                         </li>
                     </ul>
                 </div>
