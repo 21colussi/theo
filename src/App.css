@@ -55,7 +55,7 @@ html {
       }
       &.open {
         div.content {
-          padding: 0 37.5dvw 0 12.5dvw;
+          padding: 0 calc(25dvw*9/8) 0 calc(25dvw/8);
         }
         aside.menu {
           transform: translateX(0);
