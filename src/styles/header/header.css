@@ -17,6 +17,7 @@ header.header {
         gap: .75dvw;
         color: var(--contrast-color);
         user-select: none;
+        transition: transform 0.3s ease-in-out;
         img.logo-icon {
             height: calc((300% - 6dvh)/2);
             width: auto;
