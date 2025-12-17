@@ -23,8 +23,12 @@ function Menu({ open }) {
                 <div className="socials" aria-hidden={!open}>
                     <h5>Réseaux sociaux</h5>
                     <ul>
-                        <li>Tiktok</li>
-                        <li>Instagram</li>
+                        <li>
+                            <i class="fa-brands fa-tiktok"/>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
                     </ul>
                 </div>
                 <div className="theme-color" aria-hidden={!open}>
