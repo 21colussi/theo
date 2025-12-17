@@ -6,7 +6,7 @@ function Menu({ open }) {
             <div className="menu-top" aria-hidden={!open}>
                 <h3 className="menu-logo">
                     {/*<img className='logo-icon' alt='' src='temp-logo.svg'/>*/}
-                    <span>Nom du site</span>
+                    <span>Théo</span>
                 </h3>
                 <ul>
                     {['Section 1', 'Section 2', 'Section 3', 'Section 4'].map((name, i) => (

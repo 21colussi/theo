@@ -5,7 +5,7 @@ function Header({ open, toggle }) {
         <header className={`header ${open ? "open" : "closed"}`}>
             <h3 className="header-logo">
                 {/*<img className='logo-icon' alt='' src='temp-logo.svg'/>*/}
-                <span>Nom du site</span>
+                <span>Théo</span>
             </h3>
             <button className="menu-toggle" onClick={toggle}>
                 <span>+</span>
