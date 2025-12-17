@@ -109,8 +109,8 @@ aside.menu {
                 list-style: none;
                 li {
                     i {
-                        color: var(--text-color);
-                        transform: scale(1.5);
+                        color: var(--bg-color);
+                        font-size: 1.5rem;
                     }
                 }
             }
