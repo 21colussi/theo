@@ -3,7 +3,7 @@ import '../../styles/header/header.css'
 function Header({ open, toggle }) {
     return (
         <header className={`header ${open ? "open" : "closed"}`}>
-            <h3 className="logo">
+            <h3 className="header-logo">
                 {/*<img className='logo-icon' alt='' src='temp-logo.svg'/>*/}
                 <span>Nom du site</span>
             </h3>

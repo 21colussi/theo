@@ -4,9 +4,9 @@ function Menu({ open }) {
     return (
         <aside id="menu" className={`menu ${open ? 'open' : 'closed'}`}>
             <div className="menu-top" aria-hidden={!open}>
-                <h3>
-                    <span className="icon">*</span>
-                    <span>21colussi</span>
+                <h3 className="menu-logo">
+                    {/*<img className='logo-icon' alt='' src='temp-logo.svg'/>*/}
+                    <span>Nom du site</span>
                 </h3>
                 <ul>
                     {['Section 1', 'Section 2', 'Section 3', 'Section 4'].map((name, i) => (

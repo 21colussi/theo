@@ -8,7 +8,7 @@ header.header {
     padding: 1dvh 1dvw;
     z-index: 1000;
     pointer-events: none;
-    h3.logo {
+    h3.header-logo {
         top: 0;
         height: 36px;
         align-self: flex-start;
@@ -47,7 +47,7 @@ header.header {
         }
     }
     &.open {
-        h3.logo {
+        h3.header-logo {
             transform: translateX(-25dvw);
         }
         button.menu-toggle {
