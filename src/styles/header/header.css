@@ -16,10 +16,10 @@ header.header {
         align-items: center;
         gap: .75dvw;
         color: var(--contrast-color);
+        user-select: none;
         img.logo-icon {
             height: calc((300% - 6dvh)/2);
             width: auto;
-            user-select: none;
         }
         span {
             font-family: 'Playfair Display', serif;
@@ -46,6 +46,9 @@ header.header {
         }
     }
     &.open {
+        h3.logo {
+            transform: translateX(-25dvw);
+        }
         button.menu-toggle {
             color: var(--bg-color);
             rotate: 225deg;
