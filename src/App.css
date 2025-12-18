@@ -3,7 +3,7 @@
   --text-color: #555555;
   --contrast-color: #0e0e0e;
   --accent-color: #ff593e;
-  --theme-transition: 3s ease-in-out;
+  --theme-transition: .3s ease-in-out;
 }
 
 [data-theme="dark"] {
