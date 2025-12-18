@@ -128,7 +128,7 @@ aside.menu {
                 align-items: center;
                 justify-content: center;
                 i {
-                    font-size: 1.2rem;
+                    font-size: 1.25rem;
                     color: var(--contrast-color);
                 }
             }
