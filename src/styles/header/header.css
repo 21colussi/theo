@@ -37,7 +37,7 @@ header.header {
         background: none;
         border: none;
         font-weight: 100;
-        color: var(--contrast-color);
+        color: var(--bg-color);
         transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         user-select: none;
         outline: none;
@@ -51,7 +51,6 @@ header.header {
             transform: translateX(-25dvw);
         }
         button.menu-toggle {
-            color: var(--bg-color);
             rotate: 225deg;
         }
     }
