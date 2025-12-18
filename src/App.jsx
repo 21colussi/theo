@@ -7,6 +7,7 @@ import Hero from './components/hero/Hero';
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(prev => !prev);
+  document.documentElement.classList.add("theme-ready");
   return (
     <>
       <Hero/>

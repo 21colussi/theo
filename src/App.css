@@ -19,6 +19,19 @@
   box-sizing: border-box;
 }
 
+:where(*) {
+  transition:
+    background-color var(--theme-transition),
+    color var(--theme-transition),
+    border-color var(--theme-transition),
+    fill var(--theme-transition),
+    stroke var(--theme-transition);
+}
+
+html:not(.theme-ready) * {
+  transition: none !important;
+}
+
 html {
   overflow-x: hidden;
   overflow-y: auto;
@@ -71,14 +84,4 @@ html {
       }
     }
   }
-}
-
-body,
-aside,
-button,
-a {
-    transition:
-        background-color var(--theme-transition),
-        color var(--theme-transition),
-        border-color var(--theme-transition);
 }
