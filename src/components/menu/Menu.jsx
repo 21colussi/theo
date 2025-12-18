@@ -1,4 +1,5 @@
 import '../../styles/menu/menu.css';
+import { useEffect } from "react";
 
 function Menu({ open }) {
     useEffect(() => {
