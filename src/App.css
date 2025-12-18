@@ -3,6 +3,7 @@
   --text-color: #555555;
   --contrast-color: #0e0e0e;
   --accent-color: #ff593e;
+  --theme-transition: 3s ease-in-out;
 }
 
 [data-theme="dark"] {
@@ -21,7 +22,6 @@
 html {
   overflow-x: hidden;
   overflow-y: auto;
-  transition: background-color 3s ease-in-out, color 3s ease-in-out;
   body {
     width: 100dvw;
     overflow-x: hidden;
@@ -71,4 +71,14 @@ html {
       }
     }
   }
+}
+
+body,
+aside,
+button,
+a {
+    transition:
+        background-color var(--theme-transition),
+        color var(--theme-transition),
+        border-color var(--theme-transition);
 }
