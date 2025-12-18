@@ -121,6 +121,17 @@ aside.menu {
                 font-weight: normal;
                 color: var(--accent-color);
             }
+            button {
+                all: unset;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                i {
+                    font-size: 1.2rem;
+                    color: var(--contrast-color);
+                }
+            }
         }
     }
 }
