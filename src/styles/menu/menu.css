@@ -13,7 +13,11 @@ aside.menu {
     padding: 1dvw;
     border-left: 1px solid var(--contrast-color);
     transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
+    transition:
+        transform 0.3s ease-in-out,
+        background-color var(--theme-transition),
+        color var(--theme-transition),
+        border-color var(--theme-transition);
     div.menu-top {
         h3.menu-logo {
             display: flex;
