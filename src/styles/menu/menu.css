@@ -110,6 +110,7 @@ aside.menu {
                 li {
                     i {
                         color: var(--contrast-color);
+                        font-size: 1.25rem;
                         margin-right: calc(1.25dvw*2/3);
                     }
                 }
