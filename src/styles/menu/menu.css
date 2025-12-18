@@ -7,8 +7,8 @@ aside.menu {
     width: 25dvw;
     top: 0;
     right: 0;
-    background-color: var(--contrast-color);
-    color: var(--bg-color);
+    background-color: var(--bg-color);
+    color: var(--constrast-color);
     overflow-x: hidden;
     padding: 1dvw;
     transform: translateX(100%);
@@ -42,7 +42,7 @@ aside.menu {
                     align-items: flex-start;
                     gap: 0.25dvh;
                     text-decoration: none;
-                    color: var(--bg-color);
+                    color: var(--contrast-color);
                     transform: translateX(25dvw);
                     transition: transform .45s cubic-bezier(0.05, 0.85, 0.2, 1);
                     span.section-name {
@@ -109,7 +109,7 @@ aside.menu {
                 list-style: none;
                 li {
                     i {
-                        color: var(--bg-color);
+                        color: var(--contrast-color);
                         margin-right: calc(1.25dvw*2/3);
                     }
                 }
