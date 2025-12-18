@@ -110,7 +110,7 @@ aside.menu {
                 li {
                     i {
                         color: var(--bg-color);
-                        margin-right: calc(1.25dvw/3);
+                        margin-right: calc(1.25dvw*2/3);
                     }
                 }
             }

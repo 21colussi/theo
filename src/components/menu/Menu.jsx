@@ -1,6 +1,23 @@
 import '../../styles/menu/menu.css';
 
 function Menu({ open }) {
+    useEffect(() => {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "light") {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    }, []);
+    const toggleTheme = () => {
+        const root = document.documentElement;
+        const currentTheme = root.getAttribute("data-theme");
+        if (currentTheme === "light") {
+            root.removeAttribute("data-theme");
+            localStorage.setItem("theme", "dark");
+        } else {
+            root.setAttribute("data-theme", "light");
+            localStorage.setItem("theme", "light");
+        }
+    };
     return (
         <aside id="menu" className={`menu ${open ? 'open' : 'closed'}`}>
             <div className="menu-top" aria-hidden={!open}>
@@ -35,7 +52,7 @@ function Menu({ open }) {
                 </div>
                 <div className="theme-color" aria-hidden={!open}>
                     <h5>Thème</h5>
-                    <button id="theme-toggle" tabIndex={open ? 0 : -1}>
+                    <button onClick={toggleTheme} tabIndex={open ? 0 : -1}>
                         <span>O</span>
                     </button>
                 </div>
