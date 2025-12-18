@@ -4,19 +4,19 @@ import { useEffect } from "react";
 function Menu({ open }) {
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "light") {
-            document.documentElement.setAttribute("data-theme", "light");
+        if (savedTheme === "dark") {
+            document.documentElement.setAttribute("data-theme", "dark");
         }
     }, []);
     const toggleTheme = () => {
         const root = document.documentElement;
         const currentTheme = root.getAttribute("data-theme");
-        if (currentTheme === "light") {
+        if (currentTheme === "dark") {
             root.removeAttribute("data-theme");
-            localStorage.setItem("theme", "dark");
-        } else {
-            root.setAttribute("data-theme", "light");
             localStorage.setItem("theme", "light");
+        } else {
+            root.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
         }
     };
     return (
